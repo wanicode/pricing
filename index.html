@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>BS Pricing</title>
+        <title>ButtonShy Kickstarter Pricing</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -78,7 +78,8 @@
                 "patreon": {
                     "None": 0, "One": 1, "Five": 3, "Ten": 5, "Twenty": 5
                 }
-            }
+            };
+
             document.getElementById('calc').addEventListener('click', function () {
                 var price = dataTable[pledge.value][location.value] - dataTable.patreon[patreon.value];
 
